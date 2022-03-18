@@ -233,7 +233,7 @@ def onmessage(update,bot:ObigramClient):
         
 
         #AQUÍ EL USUARIO DE TELEGRAM
-        tl_admin_user = 'User0075_69'
+        tl_admin_user = 'Zeta30'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -526,9 +526,9 @@ def onmessage(update,bot:ObigramClient):
 def main():
     
     #TOKEN DEL BOT
-    bot_token = '5279876048:AAF2PjN3VrQUzvuwuHcJCGgWsatxVx1tJas'
+    bot_token = '5221282192:AAErqa5OV6a1AyYnQgPGzzkW-FrdXkctm5s'
 
-    bot = ObigramClient(bot_token)
+    bot = ObigramClient(5221282192:AAErqa5OV6a1AyYnQgPGzzkW-FrdXkctm5s)
     bot.onMessage(onmessage)
     bot.run()
 
